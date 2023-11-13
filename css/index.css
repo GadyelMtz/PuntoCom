@@ -1,0 +1,143 @@
+marquee{
+    position: sticky;
+    top: 0px;
+}
+body{
+    background-color: #243340;
+    color: aliceblue;
+}
+header{
+    background-color: #243340;
+    color: #F2F2F2;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+}
+nav{
+    background-color: #F2F2F2;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav li a{
+    color: black;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    padding: 10px;
+}
+aside{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+section{
+    width: 80%;
+}
+.botonNav:hover{
+    color: white;
+    background-color: #F25050;
+    transition: 0.2s;
+    opacity: 1;
+}
+footer{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    clear: both;
+}
+article{
+    background-color: #304354;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+p{
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 18px;
+    background-color: gray;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #F2F2F2;
+    font-family: Montserrat;
+}
+h3{
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 20px;
+}
+#subir{
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+#autor{
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#informacion{
+    padding: 3%;
+}
+#isaac_1{
+    text-align: center;
+}
+#divFormulario{
+    background-color: lightblue;
+    font-family: Quicksand;
+    text-align: justify;
+    color: black;
+}
+#divFormulario h1{
+    padding-top: 15px;
+    font-family: Quicksand;
+    font-size: 28px;
+    color: black;
+}
+#divFormulario p{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-family: Quicksand;
+    background-color: lightblue;
+    font-size: 25px;
+}
+#formulario{
+    padding-left: 45px;
+}
+#formulario label{
+    font-size: 18px;
+}       
+#correo{
+    display: inline;
+    padding-left: 55px;
+}
+#telefono{
+    display: block;
+    padding-left: 281px;
+}
+#correo label{
+    padding-right: 30px;
+}
+#telefono label{
+    padding-right: 19px;
+}
+#instagram{
+    padding-left: 6%;
+}
+#aceptar{
+    margin-left: 45%;
+    margin-bottom: 10px;
+    display: inline-block;
+}

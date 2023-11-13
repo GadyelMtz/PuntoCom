@@ -1,0 +1,101 @@
+marquee {
+  position: sticky;
+  top: 0px;
+}
+body {
+  background-color: #243340;
+  color: aliceblue;
+}
+header {
+  background-color: #243340;
+  color: #f2f2f2;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 35px;
+}
+p{
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+}
+nav {
+  background-color: #f2f2f2;
+  font-family: Verdana;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Montserrat;
+  margin: 0;
+}
+
+.contenedorDatos{
+  font-family: Montserrat;
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
+.tableCampo{
+  width: 200px;
+  font-weight: bold;
+  color: #f25050;
+  background-color: #f2f2f2;
+}
+
+table td{
+  text-align: left;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav li a {
+  color: black;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  padding: 10px;
+}
+.botonNav:hover {
+  color: white;
+  background-color: #f25050;
+  transition: 0.2s;
+  opacity: 1;
+}
+footer {
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  clear: both;
+}
+
+.contenedorVideo {
+  margin: 40px;
+}
+
+table td a {
+  text-decoration: none;
+  color: royalblue;
+  font-weight: bold;
+}
+
+section {
+  text-align: center;
+}
+
+#autor{
+  margin-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#informacion{
+  padding: 3%;
+}

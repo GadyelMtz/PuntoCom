@@ -1,0 +1,141 @@
+marquee {
+  position: sticky;
+  top: 0px;
+}
+body {
+  background-color: #243340;
+  color: aliceblue;
+}
+header {
+  background-color: #243340;
+  color: #f2f2f2;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 35px;
+}
+nav {
+  background-color: #f2f2f2;
+  font-family: Verdana;
+  font-size: 20px;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav li a {
+  color: black;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  padding: 10px;
+}
+.botonNav:hover {
+  color: white;
+  background-color: #f25050;
+  transition: 0.2s;
+  opacity: 1;
+}
+footer {
+  background-color: aliceblue;
+  color: black;
+  display: flex;
+  clear: both;
+}
+article {
+  background-color: #304354;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+p {
+  text-align: justify;
+  font-family: Montserrat;
+  font-size: 18px;
+  background-color: gray;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #f2f2f2;
+  font-family: Montserrat;
+}
+h3 {
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 20px;
+}
+#subir {
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+}
+#autor {
+  margin-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#informacion {
+  padding: 3%;
+}
+
+.miniatura {
+  height: 100px;
+  width: 100px;
+  filter: contrast(50%);
+  padding: 10px;
+}
+
+td .imagenGrande {
+  position: absolute;
+  height: 450px;
+  width: 450px;
+  top: 210px;
+  left: 865px;
+  visibility: hidden;
+}
+
+td .miniatura:hover {
+  filter: contrast(100%);
+  cursor: pointer;
+}
+
+.miniatura:hover + .imagenGrande {
+  visibility: visible;
+}
+
+#contenedorVisualizador {
+  background-color: #304354;
+  float: right;
+  margin-right: 170px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  height: 500px;
+  width: 500px;
+}
+
+#visualizador {
+  height: 450px;
+  width: 450px;
+  position: relative;
+  top: 25px;
+  left: 25px;
+}
+#contenedorMiniaturas {
+  margin-left: 8%;
+  margin-top: 3%;
+  float: left;
+}
+
+#explicacion {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+}

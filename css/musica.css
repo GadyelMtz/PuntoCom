@@ -1,0 +1,100 @@
+marquee {
+    position: sticky;
+    top: 0px;
+  }
+  body {
+    background-color: #243340;
+    color: aliceblue;
+  }
+  header {
+    background-color: #243340;
+    color: #f2f2f2;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+  }
+  .celdaInformacion p{
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #F2F2F2;
+}
+
+.celdaInformacion{
+    background-color: #46637d;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+  nav {
+    background-color: #f2f2f2;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: Montserrat;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  nav li a {
+    color: black;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .botonNav:hover {
+    color: white;
+    background-color: #f25050;
+    transition: 0.2s;
+    opacity: 1;
+  }
+  footer {
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    clear: both;
+  }
+
+  #autor{
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  
+  #informacion{
+    padding: 3%;
+  }
+
+.contenedorReproductor{
+    font-size: 40px;
+    text-align: center;
+    color: #F2F2F2;
+    font-family: Montserrat;
+}
+
+.contenidoReproductor{
+    background-color: #243340;
+    color: #f25050;
+    margin: 100px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: #F2F2F2;
+    font-family: Montserrat;
+
+}
+.artista
+{
+    height: 300px;
+}
